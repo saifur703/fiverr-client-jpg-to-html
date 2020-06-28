@@ -172,15 +172,19 @@ ul {
   margin-bottom: 30px;
   cursor: pointer;
 }
+
 .content-box h2 {
   font-weight: 700;
 }
+
 .control-btn.active button {
   background: #2c98fc;
 }
+
 .control-btn.active {
   color: #2c98fc;
 }
+
 .search-box {
   background: #f1f1f1;
   padding: 15px;
@@ -198,6 +202,7 @@ ul {
   border: 1px solid #f1f1f1;
   padding: 15px;
 }
+
 .single-control {
   display: inline-block;
   background: #f1f1f1;
@@ -212,16 +217,20 @@ ul {
   min-height: 125px;
   cursor: pointer;
 }
+
 .single-control.active {
   background-color: #2c98fc;
   color: #fff;
 }
+
 .single-control.active:hover {
   color: #fff;
 }
+
 .single-control:hover {
   color: #2c98fc;
 }
+
 .control-box-bottom {
   margin: 30px 0;
 }
@@ -237,7 +246,9 @@ ul {
 .single-control span {
   font-size: 40px;
   font-weight: 300;
+  display: block;
 }
+
 .result-box h4 {
   font-weight: 700;
   text-transform: uppercase;
@@ -268,9 +279,11 @@ ul {
   top: 15px;
   font-size: 50px;
 }
+
 .result-text {
   margin-left: 45px;
 }
+
 .next-level button {
   background: #2c98fc;
   border: none;
@@ -278,10 +291,12 @@ ul {
   padding: 15px 30px;
   border-radius: 5px;
 }
+
 .next-level {
   text-align: left;
   margin-top: 70px;
 }
+
 /* Content Box Area End */
 
 /* Sidebar Area CSS Start */
@@ -324,10 +339,12 @@ ul {
 .sidebar-box .row {
   margin-top: 15px;
 }
+
 .gray-bg {
   background-color: #f1f1f1;
   padding: 15px 0;
 }
+
 /* Sidebar Area CSS End */
 
 /* Footer CSS */
@@ -351,21 +368,27 @@ ul {
   font-weight: 700;
   color: #fff;
 }
+
 .social-link {
   margin-top: 15px;
 }
+
 .social-link a {
   font-size: 20px;
   padding-right: 10px;
 }
+
 .single-fItem a:hover {
   color: #fff;
 }
+
 .footer-bottom {
   background-color: #414141;
   padding: 10px 0;
 }
+
 .copyright {
   color: #f1f1f1;
 }
+
 /* Footer CSS End */
