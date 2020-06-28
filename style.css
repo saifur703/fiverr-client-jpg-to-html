@@ -218,9 +218,10 @@ ul {
   cursor: pointer;
 }
 
-.single-control.active {
+.single-control.active,
+.single-control:hover {
   background-color: #2c98fc;
-  color: #fff;
+  color: #fff !important;
 }
 
 .single-control.active:hover {
@@ -233,6 +234,18 @@ ul {
 
 .control-box-bottom {
   margin: 30px 0;
+}
+
+.control-btn.active button span {
+  color: #2c98fc;
+}
+
+.control-btn button span {
+  background: #fff;
+  border-radius: 50%;
+  color: #ddd;
+  display: inline-block;
+  padding: 2px 10px;
 }
 
 .single-control:first-child {
